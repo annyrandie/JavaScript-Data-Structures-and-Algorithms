@@ -6,7 +6,7 @@ function binarySearch(list, item) {
     let guess = list[mid];
     if(guess === item) return mid;
     else if (guess > item) {
-      high = mid -1;
+      end = mid -1;
     } else {
       start = mid + 1;
     }
